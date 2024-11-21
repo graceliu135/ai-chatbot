@@ -100,7 +100,7 @@ import {
           setSaving(false);
         }
       };
-  
+        
     const handleUsernameUpdate = async () => {
       try {
         await updateUsername(username);
